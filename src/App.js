@@ -1,11 +1,31 @@
-import React, { Component } from 'react'
+import React  from 'react'
+import Profile from './components/Profile'
+import About from './components/About'
+import Work from './components/Work'
+import Skills from './components/Skills'
+import Education from './components/Education'
+import "./App.css"
 
-export default class App extends Component {
-  render() {
+const App = () => {
     return (
       <div>
-        <h1>Heroku</h1>
-      </div>
+        <div className="container">
+          <aside>
+            <div className="aside">
+              <Profile />
+            </div>
+          </aside>
+          <main>
+            <div className="main">
+              <About />
+              <Work />
+              <Skills />
+              <Education />
+            </div>
+          </main>
+        </div>
+    </div>
     )
-  }
 }
+
+export default App

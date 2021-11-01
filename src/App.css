@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30% 1fr;
+    grid-template-areas: 
+      "aside main";
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+aside .aside, main .main {
+    background: #fff;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: -12px;
+}
+
+h2 {
+    color: #777;
+    text-transform: uppercase;
+}
+
+.icon {
+    margin-right: 10px;
+    top: 4px;
+}
+
+.containerComp {
+    margin-bottom: 4rem;
+}

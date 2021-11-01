@@ -1,0 +1,38 @@
+.containerP {
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 15px 0;
+}
+
+.contact li{
+    margin-bottom: 15px;
+}
+
+.links li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #000;
+}
+
+.links a{
+    color: #000;
+    cursor: pointer;
+}
+
+.jobTitle {
+    color: #777;
+    margin-top: -10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.hrP {
+    margin: 2rem 0;
+}
